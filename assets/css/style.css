@@ -1043,7 +1043,11 @@ body.nav-active { overflow: hidden; }
   margin: 20px auto;
   border-radius: 20px;
 }
-
+.special-dish-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
 
 
 /*-----------------------------------*\
@@ -2152,4 +2156,10 @@ textarea.input-field {
   width: 180px !important;  /* Isse width 180px par fix ho jayegi */
   height: auto !important;   /* Isse image khichegi (stretch) nahi */
   max-width: 100% !important;
+}
+@media (max-width: 768px) {
+  .special-dish-banner img {
+    width: 100%;
+    height: auto;
+  }
 }
