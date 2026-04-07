@@ -1035,7 +1035,14 @@ body.nav-active { overflow: hidden; }
 
 .special-dish .btn { margin-inline: auto; }
 
-
+.special-dish-banner {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+}
 
 
 
