@@ -2163,3 +2163,55 @@ textarea.input-field {
     height: auto;
   }
 }
+/* ===== MOBILE RESPONSIVE IMPROVEMENTS ===== */
+
+@media (max-width: 768px) {
+
+  /* Container spacing */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Headings */
+  .headline-1 {
+    font-size: 26px;
+  }
+
+  .headline-2 {
+    font-size: 22px;
+  }
+
+  /* Paragraph text */
+  .body-2 {
+    font-size: 14px;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* Section spacing */
+  section {
+    padding-block: 40px;
+  }
+
+  /* Navbar spacing */
+  .navbar {
+    padding: 20px;
+  }
+
+  /* Special dish image fix */
+  .special-dish-banner img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Global image fix */
+img {
+  max-width: 100%;
+  height: auto;
+}
